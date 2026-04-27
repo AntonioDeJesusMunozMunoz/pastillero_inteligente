@@ -1,16 +1,13 @@
-# pill_dispenser
+# App para Pastillero Inteligente
 
-A new Flutter project.
+App complementaria para uso en conjunto a un pastillero inteligente.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Alertas** — Notifica al cuidador cuando es hora de tomar las pastillas
+- **Monitoreo de estado** — Muestra el estado actual del pastillero
+- **Historial** — Guarda un registro de las pastillas tomadas
 
-A few resources to get you started if this is your first Flutter project:
+## Arquitectura
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+El pastillero y la app se comunican a través de **Cloudflare Workers** como intermediarios.
